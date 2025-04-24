@@ -4,6 +4,7 @@ from python import fib_iterative, fib_recursive, fib_memo
 # Language: python
 
 class TestFibonacci(unittest.TestCase):
+    '''Added test suite to test the Fibonacci implementations'''
     def test_fib_iterative(self):
         test_cases = {
             0: 0,
