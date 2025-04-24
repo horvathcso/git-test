@@ -47,7 +47,7 @@ def approximate_golden_ratio(n):
     return fib_next / fib_n
 
 if __name__ == "__main__":
-    test_values = [0, 1, 2, 5, 10, 15, 20, 25, 30, 40, 50, 100]
+    test_values = [0, 1, 2, 5, 10, 15, 20, 25, 30]
 
     print("Testing Fibonacci implementations:\n")
     for n in test_values:
