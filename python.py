@@ -33,7 +33,7 @@ def fib_memo(n, memo=None):
     return memo[n]
 
 if __name__ == "__main__":
-    test_values = [0, 1, 2, 5, 10, 15]
+    test_values = [0, 1, 2, 5, 10, 15, 20, 25, 30]
 
     print("Testing Fibonacci implementations:\n")
     for n in test_values:
